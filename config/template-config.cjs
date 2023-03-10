@@ -4,7 +4,7 @@ const TEMPLATE_CONFIG = [
     // 自定义，随便怎么填，与config里的templateId对应
     id: '0001',
     // 模板标题，会展示到推送消息的标题位置
-    title: '亲爱的, 早上好',
+    title: '今天也要元气满满啊!!!!!',
     // 模板内容，支持部分markdown语法
     desc: `
       **{{date.DATA}}**
@@ -23,7 +23,7 @@ const TEMPLATE_CONFIG = [
       
       风级: {{wind_scale.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
+      {{notice.DATA}}
       
       ---
       
@@ -31,11 +31,24 @@ const TEMPLATE_CONFIG = [
       
       {{birthday_message.DATA}}
       
+      
+      {{earthy_love_words.DATA}}
+      
       ---
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+      
       
       {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
+      
+      ---
+      
+
+      
     `
   },
   {
