@@ -10,7 +10,7 @@ const USER_CONFIG = {
   // 使用【微信测试号】请填写 wechat-test
   // 使用【方糖服务号】请填写 server-chan
   // 使用【pushplus推送加服务号】请填写 push-plus
-  USE_PASSAGE: 'wechat-test',
+  USE_PASSAGE: 'push-plus',
   
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -108,23 +108,23 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '小王',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: '',
+      id: '3d1919e17d3944da835ca97bf3ae33b2',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '',
+      useTemplateId: '0001',
       // 所在省份或城市，也可以不填
-      province: '惠州',
+      province: '浙江',
       // 所在城市或县区
-      city: '惠阳',
+      city: '杭州',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://wangxinleo.cn',
+      openUrl: 'https://docs.qq.com/doc/DR2FKU2hSYmpBYlJ6',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
