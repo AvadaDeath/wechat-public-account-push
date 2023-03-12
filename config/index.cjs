@@ -10,7 +10,7 @@ const USER_CONFIG = {
   // 使用【微信测试号】请填写 wechat-test
   // 使用【方糖服务号】请填写 server-chan
   // 使用【pushplus推送加服务号】请填写 push-plus
-  USE_PASSAGE: 'push-plus',
+  USE_PASSAGE: 'server-chan',
   
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -115,11 +115,11 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       
-      //push-plus_me
-      id: '3d1919e17d3944da835ca97bf3ae33b2',
+//       //push-plus_me
+//       id: '3d1919e17d3944da835ca97bf3ae33b2',
       
-//       //server-chan_me
-//       id: 'SCT200232Tqr1LZp3eLNpBc9kkOKd7MNLN'
+      //server-chan_me
+      id: 'SCT200232Tqr1LZp3eLNpBc9kkOKd7MNLN'
       
       
       
@@ -146,18 +146,17 @@ const USER_CONFIG = {
         {
           type: '生日', name: '小王', year: '1997', date: '03-21',
         },
+    
+    
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '大王', year: '2000', date: '09-14',
         },
-
-        
         
         
         {
           type: '节日', name: '面基纪念日', year: '2022', date: '09-30',
         },
-        
         
         
         /*
