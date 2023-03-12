@@ -29,6 +29,8 @@ const USER_CONFIG = {
   // 配合MAX_PUSH_ONE_MINUTE使用，休眠<SLEEP_TIME>毫秒后再发送剩余消息，不填则默认为65000
   SLEEP_TIME: 65000,
 
+
+  
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
@@ -315,21 +317,21 @@ const USER_CONFIG = {
    * 信息配置
    */
 
-  /** 
-   * 天气相关
-   * 
-   * 可以填 省份或者市区， PROVINCE 的区域必须包含 CITY
-   * 例如： PROVINCE：'广东' CITY：'惠州'
-   * 例如： PROVINCE：'咸阳' CITY：'长武'
-   *
-   * 甚至 PROVINCE 可以不填
-   * 例如： PROVINCE：'' CITY：'长武'
-   **/
+//   /** 
+//    * 天气相关
+//    * 
+//    * 可以填 省份或者市区， PROVINCE 的区域必须包含 CITY
+//    * 例如： PROVINCE：'广东' CITY：'惠州'
+//    * 例如： PROVINCE：'咸阳' CITY：'长武'
+//    *
+//    * 甚至 PROVINCE 可以不填
+//    * 例如： PROVINCE：'' CITY：'长武'
+//    **/
   
-  // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '山东',
-  // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '青岛',
+//   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
+//   PROVINCE: '山东',
+//   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
+//   CITY: '青岛',
 
   
   
