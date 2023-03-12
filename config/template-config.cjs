@@ -30,8 +30,7 @@ const TEMPLATE_CONFIG = [
       今天是我们相识的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
-      
-      
+            
       {{earthy_love_words.DATA}}
       
       ---
@@ -47,8 +46,6 @@ const TEMPLATE_CONFIG = [
       {{poetry_content.DATA}}
       
       ---
-      
-
       
     `
   },
@@ -68,6 +65,27 @@ const TEMPLATE_CONFIG = [
       
       失败用户: {{fail_post_ids.DATA}}
     `
+  },
+  {
+    id: '0003',
+    title: '视察猪宝',
+    desc: `
+    {{date.DATA}} 
+    城市：{{city.DATA}} 
+    天气：{{weather.DATA}} 
+    最低气温: {{min_temperature.DATA}} 
+    最高气温: {{max_temperature.DATA}} 
+    今天是我们恋爱的第{{love_day.DATA}}天
+    今天是我们结婚的第{{marry_day.DATA}}天
+
+    {{birthday_message.DATA}}
+
+    {{one_talk.DATA}} -- {{talk_from.DATA}}
+
+    {{note_en.DATA}} 
+    {{note_ch.DATA}}
+  `
+
   },
 ]
 
