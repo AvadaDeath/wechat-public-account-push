@@ -38,12 +38,13 @@ const TEMPLATE_CONFIG = [
       
       {{comprehensive_horoscope.DATA}}
       
-      ---
-      
-      
       {{moment_copyrighting.DATA}}
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      ---
+            
+      {{poetry_title.DATA}} {{poetry_author.DATA}}
+      
+      {{poetry_content.DATA}}
       
       ---
       
