@@ -120,6 +120,9 @@ const USER_CONFIG = {
       //push-plus_me
       id: '3d1919e17d3944da835ca97bf3ae33b2',
       
+//       //push-plus_xw
+//       id: '5670c6c317064e0182bd185cf6c72acc',
+      
 //       //server-chan_me
 //       id: 'SCT200232Tqr1LZp3eLNpBc9kkOKd7MNLN'
       
