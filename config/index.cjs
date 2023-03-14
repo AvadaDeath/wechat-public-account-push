@@ -117,11 +117,11 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       
-      //push-plus_me
-      id: '3d1919e17d3944da835ca97bf3ae33b2',
+//       //push-plus_me
+//       id: '3d1919e17d3944da835ca97bf3ae33b2',
       
-//       //push-plus_xw
-//       id: '5670c6c317064e0182bd185cf6c72acc',
+      //push-plus_xw
+      id: '5670c6c317064e0182bd185cf6c72acc',
       
 //       //server-chan_me
 //       id: 'SCT200232Tqr1LZp3eLNpBc9kkOKd7MNLN'
